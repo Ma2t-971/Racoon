@@ -1,0 +1,23 @@
+{
+  "name": "racoon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "sass":"1.82.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass -c": "sass --watch ./index.scss ./style.css --style:compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ma2t-971/Racoon.git"
+  },
+  "author": "Matthias Thilby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ma2t-971/Racoon/issues"
+  },
+  "homepage": "https://github.com/Ma2t-971/Racoon#readme",
+  "description": ""
+}
