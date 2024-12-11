@@ -1,3 +1,26 @@
 main{
-    
+    .main{
+        max-width: 599px;
+        margin: auto;
+        article{
+            margin: 0px .937rem;;
+            .entt{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: .5rem;
+                p{
+                    opacity: 0.6;
+                }
+            }
+            img{
+                width: 100%;
+                margin-bottom: .438rem;
+            }
+            p{
+                text-align: justify;
+            }
+            margin-bottom: 1.25rem ;
+        }
+    }
 }

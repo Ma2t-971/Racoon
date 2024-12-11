@@ -16,7 +16,8 @@ header{
 .content{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: auto;
+    max-width: 599px;
     nav{
         padding: 1.5rem .937rem;
 
@@ -28,7 +29,9 @@ header{
         ul:first-of-type{
             a{
                 display: block;
-                padding: .812rem .75rem ;
+                text-align: center;
+                padding: 1rem;
+                width: 100%;
                 padding-top: 0;
                 font-family: "Montserra", sans-serif;
                 font-size: 17px;
@@ -36,6 +39,10 @@ header{
             a:hover{
                 color: black;
                 font-weight: bolder;
+            }
+
+            li{
+                width: 100%;
             }
         }
         
@@ -45,6 +52,9 @@ header{
             }
             a:hover{
                 box-shadow: 5px 5px 5px;
+            }
+            li{
+                align-items: center;
             }
         }
     }

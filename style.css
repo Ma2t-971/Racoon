@@ -14,7 +14,8 @@ header {
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: auto;
+  max-width: 599px;
 }
 .content nav {
   padding: 1.5rem 0.937rem;
@@ -25,7 +26,9 @@ header {
 }
 .content nav ul:first-of-type a {
   display: block;
-  padding: 0.812rem 0.75rem;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
   padding-top: 0;
   font-family: "Montserra", sans-serif;
   font-size: 17px;
@@ -34,11 +37,42 @@ header {
   color: black;
   font-weight: bolder;
 }
+.content nav ul:first-of-type li {
+  width: 100%;
+}
 .content nav ul:nth-of-type(2) a {
   padding: 0.687rem;
 }
 .content nav ul:nth-of-type(2) a:hover {
   box-shadow: 5px 5px 5px;
+}
+.content nav ul:nth-of-type(2) li {
+  align-items: center;
+}
+
+main .main {
+  max-width: 599px;
+  margin: auto;
+}
+main .main article {
+  margin: 0px 0.937rem;
+  margin-bottom: 1.25rem;
+}
+main .main article .entt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+main .main article .entt p {
+  opacity: 0.6;
+}
+main .main article img {
+  width: 100%;
+  margin-bottom: 0.438rem;
+}
+main .main article p {
+  text-align: justify;
 }
 
 * {
