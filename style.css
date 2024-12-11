@@ -1,0 +1,49 @@
+a {
+  text-decoration: none;
+  color: #9F9F9F;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  margin-bottom: 0.625rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content nav {
+  padding: 1.5rem 0.937rem;
+}
+.content nav ul {
+  display: flex;
+  justify-content: center;
+}
+.content nav ul:first-of-type a {
+  display: block;
+  padding: 0.812rem 0.75rem;
+  padding-top: 0;
+  font-family: "Montserra", sans-serif;
+  font-size: 17px;
+}
+.content nav ul:first-of-type a:hover {
+  color: black;
+  font-weight: bolder;
+}
+.content nav ul:nth-of-type(2) a {
+  padding: 0.687rem;
+}
+.content nav ul:nth-of-type(2) a:hover {
+  box-shadow: 5px 5px 5px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
