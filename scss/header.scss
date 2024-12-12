@@ -1,8 +1,20 @@
 $couleur: #9F9F9F;
 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserra", sans-serif;
+}
+
+
 a{
     text-decoration: none;
     color: $couleur;
+}
+
+a:hover{
+    color: black;
+    font-weight: bolder;
 }
 
 li{
@@ -17,9 +29,8 @@ header{
     display: flex;
     flex-direction: column;
     margin: auto;
-    max-width: 599px;
     nav{
-        padding: 1.5rem .937rem;
+        padding: 0.75rem .937rem;
 
         ul{
             display: flex;
@@ -30,20 +41,14 @@ header{
             a{
                 display: block;
                 text-align: center;
-                padding: 1rem;
+                padding-bottom: 1rem;
+                padding-top: .75rem;
                 width: 100%;
-                padding-top: 0;
-                font-family: "Montserra", sans-serif;
                 font-size: 17px;
             }
 
             a:last-of-type{
                 padding-right:0 ;
-            }
-            
-            a:hover{
-                color: black;
-                font-weight: bolder;
             }
 
             li{
