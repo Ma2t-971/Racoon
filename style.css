@@ -33,6 +33,9 @@ header {
   font-family: "Montserra", sans-serif;
   font-size: 17px;
 }
+.content nav ul:first-of-type a:last-of-type {
+  padding-right: 0;
+}
 .content nav ul:first-of-type a:hover {
   color: black;
   font-weight: bolder;

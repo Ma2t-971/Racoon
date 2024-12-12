@@ -36,6 +36,11 @@ header{
                 font-family: "Montserra", sans-serif;
                 font-size: 17px;
             }
+
+            a:last-of-type{
+                padding-right:0 ;
+            }
+            
             a:hover{
                 color: black;
                 font-weight: bolder;
