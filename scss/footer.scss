@@ -1,14 +1,22 @@
 footer{
+    padding-bottom: 2.75rem ;
+    background: #FBFBFB; 
     section{
         margin: auto;
-        text-align: center;
-        background: #FBFBFB;  
+        text-align: center; 
         h2{
             margin-bottom: 2.25rem;
         }
         
+        li{
+            padding: 1.062rem 0;
+        }
         a{
-            margin: 1.062rem;
+            padding: 1.062rem 0;
+        }
+
+        a:hover{
+            text-decoration: underline;
         }
     }
     .gradient{
