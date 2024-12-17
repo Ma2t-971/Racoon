@@ -23,6 +23,10 @@ li{
 
 header{
     margin-bottom: .625rem;
+    img{
+        height: 336px;
+        object-fit: cover;
+    }
 }
 
 .content{
@@ -31,6 +35,10 @@ header{
     margin: auto;
     nav{
         padding: 0.75rem .937rem;
+
+        img{
+            height:auto;
+        }
 
         ul{
             display: flex;
@@ -54,7 +62,7 @@ header{
             li{
                 width: 100%;
             }
-        }
+        }   
         
         ul:nth-of-type(2){
             a{

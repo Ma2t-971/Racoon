@@ -21,14 +21,20 @@
     }
     main{
         .main{
-            width: 70%;
+            max-width: 1040px;
+            margin-top: 6rem;
+            margin-bottom: .625rem;
             article{
                 display: flex;
                 flex-direction:column;
                 position: relative;
+                justify-content: normal;
+                margin-bottom: 1.875rem;
+                height: 198px;
+                justify-content: space-around;
                 .entt{
                     flex-direction: column-reverse;
-                    
+                    align-items: normal;
                     margin-left: 20rem;
                     p{
                         width: fit-content;
@@ -48,6 +54,55 @@
                 }
             }
         }
+        footer{
+            section{
+                text-align: left;
+            }
+        }
+    }
+}
+@media screen and (min-width:1024px) {
+    header{
+        
+        margin-bottom: 0;
+    }
+    main{
+        position: relative;
+        padding-right: 378px;
+        .main{
+            padding-top: 3rem;
+            margin-top: 0;
+            margin: auto;
+        }
+    }
+    footer{
+
+        
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 378px;
+        
+        .gradient{
+            display: none;
+        }
+        section{
+            padding: 3rem;
+        }  
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    header{
+        nav{
+            max-width: 1400px;
+            width: 100%;
+            margin: auto;
+        }
+    }
+    main{
+        max-width: 1400px;
+        margin: auto;
     }
 }
 
