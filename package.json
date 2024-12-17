@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass -c": "sass --watch ./index.scss ./style.css",
+    "sass -c": "sass --watch ./index.scss ./style.css --style=compressed",
     "com": "echo \"--style=compressed\""
   },
   "repository": {
